@@ -1,0 +1,37 @@
+# Anima CI – Phase 1: lint, type-check, and build.
+image: node:20
+
+stages:
+  - validate
+  - build
+
+cache:
+  key:
+    files:
+      - package-lock.json
+  paths:
+    - node_modules/
+
+.install: &install
+  before_script:
+    - npm ci
+
+lint:
+  stage: validate
+  <<: *install
+  script:
+    - npm run lint
+    - npm run format:check
+  allow_failure: true
+
+type-check:
+  stage: validate
+  <<: *install
+  script:
+    - npm run type-check
+
+build:
+  stage: build
+  <<: *install
+  script:
+    - npm run build

@@ -1,0 +1,3 @@
+# Vertical-slice domain modules. See SPEC.md.
+# Planned: essence/, divine-will/, companions/, progression/, onboarding/.
+# Each feature owns its components, hooks, logic, and types.

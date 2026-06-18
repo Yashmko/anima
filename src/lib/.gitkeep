@@ -1,0 +1,2 @@
+# Framework glue only (no business logic). See CONTRIBUTING.md.
+# Planned: firebase/ (Phase 2), ai/ (Phase 5), utils.
