@@ -221,57 +221,35 @@ Calls to action are framed as invitations — "step inside," not "get started fr
 14. Mobile-first guidance
 
 Single-column, scroll-friendly environments that don't depend on hover states or precise cursor targeting.
-
-Touch targets sized generously; nothing should require precision a thumb can't comfortably provide.
-
+Touch targets sized generously; nothing should require precision a thumb can't comfortably provide
 Ambient animation scales down gracefully on mobile — replace heavy parallax layers with lighter alternatives rather than disabling motion entirely.
-
 UI chrome shrinks further on small screens; let the world fill the frame edge to edge rather than competing with navigation bars.
-
 Navigation is bottom-anchored and minimal, not a top-heavy menu stack.
-
 Test type scaling at the smallest supported screen size — the storybook feeling breaks first at the typography layer.
 
 15. Things we will never do
 
 Never use neon, harsh saturation, or a dark dashboard palette.
-
 Never simulate urgency — no countdown timers, no guilt-framed push notifications, no FOMO theater.
-
 Never let hyper-detailed or "AI sludge" textures into the pixel art.
-
 Never crowd a scene past comfortable density; if in doubt, remove rather than add.
-
 Never let UI chrome carry more visual weight than the world it sits on.
-
 Never default to generic fantasy tropes — the armored hero, the floating loot orb, the glowing exclamation mark.
-
 Never make the player feel small in a belittling way — only ever spatially small within something larger and kinder.
-
 Never use harsh cuts, screen shake, or particle spam.
-
 Never reproduce real branded IP or visibly lift assets from an existing game.
 
 16. Visual checklist for every future design
 
 Does this make someone want to stay, not just convert?
-
 Is the world still the emotional focal point, not the UI?
-
 Is the palette warm and quiet, free of neon or gloom?
-
 Are the pixels deliberate and readable, not noisy or AI-sludge?
-
 Is there visible negative space — room to breathe?
-
 Does the protagonist read clearly in silhouette at small scale?
-
 Is any motion gentle, looping, and non-distracting?
-
 Would this screen still feel right in three years, or does it chase a trend?
-
 Would this feel at home in a quiet indie RPG rather than a SaaS product?
-
 Does it avoid every item in "Things we will never do"?
 
 17. North star statement
@@ -279,59 +257,32 @@ Does it avoid every item in "Things we will never do"?
 Anima is the feeling of returning to a place that remembers you — a small, sunlit valley that grows a little more whole every time you do something small and true in your own life, asking for nothing louder than your continued presence and offering nothing flashier than the quiet, accumulating proof that you were here, and that here is better for it.
 
 Use this / do not use this
-
 Use this
-
 Not this
-
 Warm, muted, storybook palette
-
 Neon, gloomy, or aggressively saturated palette
-
 Medium, deliberate pixel density
-
 Ultra-fine micro-detail or AI-smoothed textures
-
 Small protagonist in a large, breathing world
-
 Oversized hero filling the frame
-
 Translucent, minimal UI panels
-
 Heavy opaque dashboard cards
-
 Slow pans, soft dissolves
-
 Hard cuts, whip pans, screen shake
-
 Environmental storytelling
-
 Tutorial pop-ups and exposition text
-
 Invitational copy ("step inside")
-
 Conversion copy ("get started free")
-
 Negative space as a design tool
-
 Filling every frame edge to edge
-
 Anti-patterns to avoid
-
 Streak countdown timers designed to provoke anxiety rather than encourage return.
-
 Confetti or celebration overload on small, routine actions.
-
 Push notifications written to guilt the player back into the app.
-
 KPI-tile dashboards borrowed from productivity software.
-
 Glassmorphism, neumorphism, or any dark-UI trend that fights the storybook tone.
-
 Default fantasy-hero poses and floating loot-orb reward visuals.
-
 Loot-box-style reveal animations for any reward, cosmetic or otherwise.
-
 Future-proofing note
 
 As Anima grows — new biomes, new companions, seasonal events, new continents — every addition should pass one test before it ships: would this still feel discovered, not manufactured? A new region should feel like it was always there and the player simply hadn't found it yet, not like a content drop with a patch-notes voice. New systems should expand what the world can remember about the player, not what the UI can demand from them. The identity of Anima isn't a fixed set of assets — it's this discipline, reapplied every time something new is built.
